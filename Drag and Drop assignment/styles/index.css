@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.wrapper{
+    width: 100%;
+    height: 100%;
+    /* margin: 1%; */
+    
+}
+.section1{
+    width: 33.3%;
+    height: 100vh;
+    background-color: red;
+    float: left;
+    position: relative;
+}
+.section2{
+    width: 33.3%;
+    height: 100vh;
+    background-color: orange;
+    float: left;
+    position: relative;
+}
+.section3{
+    width: 33.3%;
+    height: 100vh;
+    background-color: green;
+    float: left;
+    position: relative;
+}
+.heading{
+    width: 10%;
+    text-align: center;
+    margin: 10%;
+    margin-left: 40%;
+    position: relative;
+    color: white;
+}
+.visible{
+    width: 80%;
+    height: 50vh;
+    margin: 10%;
+    /* background-color: blue; */
+    overflow: hidden;
+}
+.buttons{
+    width: 50%;
+    height: auto;
+    text-align: center;
+    padding: 12px;
+    margin-left: 20%;
+    margin-top: 2%;
+    margin-right: 20%;
+    
+}
+.input{
+    width: 50%;
+    text-align: center;
+    margin-left: 20%;
+    margin-top: 2%;
+    margin-right: 20%;
+    height: 40px;
+}
+
+@media screen and (max-width: 600px){
+    .section1{
+        float: none;
+        height: 400px;
+        width: 100%;
+    }
+    .section2{
+        float: none;
+        height: 200px;
+        width: 100%;
+    }
+    .section3{
+        float: none;
+        height: 200px;
+        width: 100%;
+    }
+    .wrapper{
+        margin: 0px;
+    }
+    .heading{
+        margin: 2px;
+       text-align: center;
+       margin-left: 150px;
+    }
+}
